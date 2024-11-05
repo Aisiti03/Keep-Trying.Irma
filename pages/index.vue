@@ -13,7 +13,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -300px;
-
   }
   
 </style>

@@ -78,41 +78,41 @@
 </template>
 
 <style scoped>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
-                margin: 0;
-                padding: 0;
-            }
-            .container {
-                max-width: 800px;
-                margin: 50px auto;
-                background-color: #fff;
-                padding: 20px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            h1 {
-                text-align: center;
-                color: #fff;
-                background-color: #00710D;
-            }
-            .section {
-                margin-bottom: 20px;
-            }
-            .section h2 {
-                color: #006400;
-                margin-bottom: 10px;
-            }
-            ul {
-                list-style: none;
-                padding: 0;
-            }
-            ul li {
-                margin-bottom: 5px;
-            }
-            .logo {
-                display: block;
-                margin: 0 auto;
-                width: 100px;
-            }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: #00710D;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    color: #006400;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 5px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
 </style>

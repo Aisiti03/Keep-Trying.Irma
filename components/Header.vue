@@ -3,7 +3,7 @@
         <div class="container">
             <img src="/assets/img/Logo_Smk.jpg" alt="logo irma" width="100px" height="100px">
             <img src="/assets/img/Logo_Irma.jpg" alt="logo smk" width="100px" height="100px">
-            <a class="navbar-brand" href="#">IRMA SMKN4 TASIKMALAYA</a>
+            <a class="navbar-brand" href="#">IRMA SMKN 4 TASIKMALAYA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

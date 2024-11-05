@@ -38,52 +38,52 @@
 </template>
 
 <style scoped>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f5f5f5;
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        max-width: 1000px;
-        margin: 20px auto;
-        background-color: white;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }
-    h2 {
-        color: #007b43;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2 {
+    color: #007b43;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+@media (max-width: 768px) {
     .content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+    grid-template-columns: 1fr;
     }
-    @media (max-width: 768px) {
-        .content {
-            grid-template-columns: 1fr;
-        }
-    }
-    .grid-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    /* Full width for Kajian Rutin */
-    .grid-item.full-width {
-        grid-column: span 2; /* Span across both columns */
-    }
-    .content img {
-        width: 446px;         /* Full width of the grid item */
-        height: 228px;      /* Set a fixed height for uniformity */
-        object-fit: cover;  /* Ensure the aspect ratio is maintained while covering the area */
-        border-radius: 15px;
-    }
-    .content h3 {
-        text-align: center;
-        margin-top: 10px;
-    }
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Full width for Kajian Rutin */
+.grid-item.full-width {
+    grid-column: span 2; /* Span across both columns */
+}
+.content img {
+    width: 446px;         /* Full width of the grid item */
+    height: 228px;      /* Set a fixed height for uniformity */
+    object-fit: cover;  /* Ensure the aspect ratio is maintained while covering the area */
+    border-radius: 15px;
+}
+.content h3 {
+    text-align: center;
+    margin-top: 10px;
+}
 </style>

@@ -39,44 +39,44 @@
 </template>
 
 <style scoped>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f9;
-                margin: 0;
-                padding: 20px;
-            }
-            .container {
-                max-width: 800px;
-                margin: auto;
-                background-color: #fff;
-                padding: 20px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            h1 {
-                text-align: center;
-                color: #ffffff;
-                background-color: #00710D;
-            }
-            .program-section {
-                margin-bottom: 20px;
-            }
-            .program-section h2 {
-                color: #333;
-                border-bottom: 2px solid #2d7a4b;
-                padding-bottom: 5px;
-            }
-            ul {
-                list-style-type: none;
-                padding-left: 0;
-            }
-            li {
-                padding: 5px 0;
-            }
-            footer {
-                text-align: center;
-                margin-top: 20px;
-                font-size: 12px;
-                color: #777;
-            }
-        </style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #00710D;
+}
+.program-section {
+    margin-bottom: 20px;
+}
+.program-section h2 {
+    color: #333;
+    border-bottom: 2px solid #2d7a4b;
+    padding-bottom: 5px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    padding: 5px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+}
+</style>
     
